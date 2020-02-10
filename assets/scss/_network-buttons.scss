@@ -1,0 +1,42 @@
+.icon-bar {
+    position: fixed;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    .face {
+        background-color: #3b5998;
+    }
+
+    .twit {
+        background-color: #1DA1F3;
+    }
+
+    .drib {
+        background-color: #E54583;
+    }
+
+    .gplus {
+        background-color: #DD4B3F;
+    }
+
+    .contain {
+        padding: 5px;
+        margin: 2px 0px;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+
+        span {
+            display: table-cell; 
+            vertical-align: middle;
+            color: black;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: whitesmoke;
+        }
+    }
+}
