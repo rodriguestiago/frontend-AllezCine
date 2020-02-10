@@ -22,21 +22,49 @@
 }
 
 .icon-bar .contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 5px;
   margin: 2px 0px;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
 }
 
-.icon-bar .contain span {
-  display: table-cell;
-  vertical-align: middle;
+.icon-bar .contain .leftbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 5px;
+}
+
+.icon-bar .contain .leftbox a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-bar .contain .rightbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 5px;
+}
+
+.icon-bar .contain .rightbox span {
   color: black;
   font-size: 25px;
   width: 40px;
   height: 40px;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: whitesmoke;
 }
 

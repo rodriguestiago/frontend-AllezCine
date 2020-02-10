@@ -22,21 +22,38 @@
     }
 
     .contain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         padding: 5px;
         margin: 2px 0px;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        overflow: hidden;
 
-        span {
-            display: table-cell; 
-            vertical-align: middle;
-            color: black;
-            font-size: 25px;
-            width: 40px;
-            height: 40px;
-            text-align: center;
-            border-radius: 50%;
-            background-color: whitesmoke;
+        .leftbox {
+            display: flex;
+            margin: 0px 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .rightbox {
+            display: flex;
+            margin: 0px 5px;
+
+            span {
+                color: black;
+                font-size: 25px;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                border-radius: 50px;
+                background-color: whitesmoke;
+            }
         }
     }
 }
