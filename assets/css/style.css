@@ -1,4 +1,46 @@
 body {
   font-size: medium;
 }
+
+.first-ct {
+  border: 2px #d3cece solid;
+  padding: 20px;
+  top: 1em;
+  position: relative;
+}
+
+#register-bar {
+  background-color: #FF423E;
+  height: 3vw;
+}
+
+#register-bar p {
+  color: white;
+  left: 4vw;
+  line-height: 3vw;
+  position: relative;
+  top: 0;
+}
+
+#register-bar button {
+  color: white;
+  background-color: black;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  top: -3.1em;
+  left: 15vw;
+}
+
+h3 {
+  left: 5em;
+  position: relative;
+  text-transform: uppercase;
+  color: #31312F;
+}
+
+.vl {
+  border-left: 4px solid red;
+  height: 30px;
+}
 /*# sourceMappingURL=style.css.map */
