@@ -7,15 +7,19 @@ $border-radius : 50px;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    .face {
+    button {
+        border: none;
+    }
+
+    .facebook {
         background-color: #3b5998;
     }
 
-    .twit {
+    .twitter {
         background-color: #1DA1F3;
     }
 
-    .drib {
+    .dribbble {
         background-color: #E54583;
     }
 
@@ -23,46 +27,41 @@ $border-radius : 50px;
         background-color: #DD4B3F;
     }
 
-    .contain {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .fab {
+        font-size: 25px;
+    }
+
+    .links {
+        background-color: #FFF;
+        border-radius: $border-radius;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .parent {
+        margin-top: 3px;
+        border-radius: 0 50px 50px 0;
         padding: 5px;
-        margin: 2px 0px;
-        margin-left: -100px;
-        border-top-right-radius: $border-radius;
-        border-bottom-right-radius: $border-radius;
-        overflow: hidden;
+        text-align: center;
+        cursor: pointer;
 
-        .leftbox {
-            display: flex;
-            margin: 0px 10px;
-            margin: auto;
-
-            a {
-                text-decoration: none;
-                color: white;
-                padding-top: 7px;
-                margin: auto;
-            }
+        span {
+            display: none;
+            width: 0px;
         }
 
-        .rightbox {
-            display: flex;
-            margin: 0px 5px;
-            text-align: center;
-            border-radius: $border-radius;
-            background-color: whitesmoke;
-            margin-left: 20px;
-            margin-right: -2px;
-
-            .network {
-                color: black;
-                font-size: 25px;
-                width: 40px;
-                height: 40px;
-                padding-top: 7px;
-            }
+        a {
+            color: white;
+            text-decoration: none;
         }
+    }
+
+    :active span,
+    :focus span {
+        display: inherit;
+        width: 100px;
+
+        transition: 0.2s ease;
     }
 }
