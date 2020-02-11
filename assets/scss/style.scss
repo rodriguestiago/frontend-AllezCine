@@ -1,17 +1,15 @@
 body {
-  
     font-size: medium;
 }
 .navbar-brand{
   text-transform: uppercase;
-  
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .first{
   color: #F6453E;
 }
 .second{
-  color: #fff;
+  color: #ffffff;
 }
 .first-ct {
     border: 2px rgb(211, 206, 206) solid;
@@ -77,6 +75,9 @@ body {
     border-left: 4px solid #DA5247;
     text-transform: uppercase;
   }
+  .shop-movies{
+    margin-bottom: 4vh;
+  }
 
 .jumbotron{
   padding: 0;
@@ -112,7 +113,9 @@ height: 2px;
 } 
 
 
-
+.carousel-inner{
+  left: 500px;
+}
 #carouselExampleControls{
 width: 30em;
 margin-right: 1em;
@@ -120,13 +123,15 @@ position: relative;
 
 }
 span.carousel-control-prev-icon{
-  left: 2em;
-  top: -100px;
+  background-color: black;
+  left: 35vw;
+  top: -10vw;
   position: relative;
 }
 span.carousel-control-next-icon{
-  right: 2em;
-  top: -100px;
+  background-color: black;
+  left: 2vw;
+  top: -10vw;
   position: relative;
 }
 
@@ -134,4 +139,8 @@ span.carousel-control-next-icon{
 
 .third-ct{
   margin: 0 0 0 20px;
+}
+form{
+  background-color: white;
+  width: 700px;
 }

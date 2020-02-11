@@ -4,7 +4,7 @@ body {
 
 .navbar-brand {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .first {
@@ -12,7 +12,7 @@ body {
 }
 
 .second {
-  color: #fff;
+  color: #ffffff;
 }
 
 .first-ct {
@@ -86,6 +86,10 @@ blockquote {
   text-transform: uppercase;
 }
 
+.shop-movies {
+  margin-bottom: 4vh;
+}
+
 .jumbotron {
   padding: 0;
 }
@@ -117,6 +121,10 @@ height: 2px;
   height: 4px;
 }
 
+.carousel-inner {
+  left: 500px;
+}
+
 #carouselExampleControls {
   width: 30em;
   margin-right: 1em;
@@ -124,18 +132,25 @@ height: 2px;
 }
 
 span.carousel-control-prev-icon {
-  left: 2em;
-  top: -100px;
+  background-color: black;
+  left: 35vw;
+  top: -10vw;
   position: relative;
 }
 
 span.carousel-control-next-icon {
-  right: 2em;
-  top: -100px;
+  background-color: black;
+  left: 2vw;
+  top: -10vw;
   position: relative;
 }
 
 .third-ct {
   margin: 0 0 0 20px;
+}
+
+form {
+  background-color: white;
+  width: 700px;
 }
 /*# sourceMappingURL=style.css.map */
