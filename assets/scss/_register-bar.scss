@@ -1,22 +1,27 @@
-#register-bar{
+#register-bar {
+    display: flexbox;
     background-color: #FF423E;
-    height: 3vw;
-    
-    p{
+    padding: 5px;
+    font-size: small;
+
+    i {
         color: white;
-    left:4vw;
-    line-height: 3vw;
-    position: relative;
-    top: 0;
+        margin-left: 30px;
     }
 
-    button{
+    p {
+        display: inline;
+        color: white;
+        margin: 0 10px;
+    }
+
+    button {
+        display: inline;
         color: white;
         background-color: black;
         border: none;
         text-transform: uppercase;
-        position: relative;
-        top: -3.1em;
-        left: 17vw;
+        padding: 4px;
+        padding-bottom: 4px;
     }
 }

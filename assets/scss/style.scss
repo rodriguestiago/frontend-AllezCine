@@ -1,21 +1,22 @@
 @import 'network-buttons';
 @import 'register-bar';
+@import 'to-top-button';
 
 body {
     font-size: medium;
-    
+    font-family: 'Roboto', sans-serif;  
+
     main {
         overflow: hidden;
     }
 }
 
 .first-ct {
-    border: 2px rgb(211, 206, 206) solid;
+    border: 2px whitesmoke solid;
     padding: 20px;
     top: 1em;
     position: relative;
 }
-
 
   .film-button{
       width: 6em;
