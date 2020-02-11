@@ -1,6 +1,6 @@
 .icon-bar {
   position: fixed;
-  top: 40%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -63,21 +63,6 @@
   transition: 0.2s ease;
 }
 
-body {
-  font-size: medium;
-}
-
-body main {
-  overflow: hidden;
-}
-
-.first-ct {
-  border: 2px #d3cece solid;
-  padding: 20px;
-  top: 1em;
-  position: relative;
-}
-
 #register-bar {
   background-color: #FF423E;
   height: 3vw;
@@ -99,6 +84,21 @@ body main {
   position: relative;
   top: -3.1em;
   left: 17vw;
+}
+
+body {
+  font-size: medium;
+}
+
+body main {
+  overflow: hidden;
+}
+
+.first-ct {
+  border: 2px #d3cece solid;
+  padding: 20px;
+  top: 1em;
+  position: relative;
 }
 
 .film-button {
