@@ -2,6 +2,19 @@ body {
   font-size: medium;
 }
 
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.first {
+  color: #F6453E;
+}
+
+.second {
+  color: #fff;
+}
+
 .first-ct {
   border: 2px #d3cece solid;
   padding: 20px;
@@ -23,13 +36,15 @@ body {
 }
 
 #register-bar button {
+  font-size: 1.3vw;
   color: white;
   background-color: black;
   border: none;
   text-transform: uppercase;
   position: relative;
-  top: -3.1em;
-  left: 17vw;
+  top: -3.7vw;
+  left: 20vw;
+  width: 10vw;
 }
 
 .film-button {
@@ -46,7 +61,7 @@ body {
 
 #plus-film {
   width: 10em;
-  height: 2em;
+  height: 2.2em;
   left: 12em;
   position: relative;
   color: white;
@@ -75,52 +90,52 @@ blockquote {
   padding: 0;
 }
 
-button.slick-prev {
-  visibility: hidden;
+.carousel-indicators li {
+  background-color: #fff;
 }
 
-button.slick-next {
-  visibility: hidden;
+.carousel-indicators li.active {
+  background-color: red;
 }
 
-.slick-dots li button {
-  font-size: 0px;
-  border: none;
-  width: 40px;
-  height: 6px;
-  background: transparent;
-  cursor: pointer;
-  outline: 0;
-}
-
-/* button#slick-slide-control01, button#slick-slide-control02{
+/* li{
   background: #ffffff;
-  color: white;
-  background-color: white;
-} */
-.slick-dots {
-  margin: 0 auto;
-  width: 50%;
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  padding: 0;
+  width: 50px;
+  height: 4px;
+  padding: 10px;
+}
+li{
+  background-color: #ffffff;
+  opacity: 1;
+}
+li.active{
+background-color: red;
+height: 2px;
+}*/
+.carousel-indicators li {
+  opacity: 1;
+  height: 4px;
 }
 
-.slick-dots li {
-  display: inline-block;
-  padding-right: 10px;
+#carouselExampleControls {
+  width: 30em;
+  margin-right: 1em;
+  position: relative;
 }
 
-li.slick-active button {
-  background: #DA5247;
+span.carousel-control-prev-icon {
+  left: 2em;
+  top: -100px;
+  position: relative;
 }
 
-li.slick-active {
-  background: #DA5247;
+span.carousel-control-next-icon {
+  right: 2em;
+  top: -100px;
+  position: relative;
 }
 
-.slick-initialized {
-  overflow: hidden;
+.third-ct {
+  margin: 0 0 0 20px;
 }
 /*# sourceMappingURL=style.css.map */
