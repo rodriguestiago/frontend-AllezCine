@@ -24,16 +24,88 @@ body {
         text-transform: uppercase;
         position: relative;
         top: -3.1em;
-        left: 15vw;
+        left: 17vw;
     }
 }
-h3{
-    left: 5em;
-    position: relative;
-    text-transform: uppercase;
-    color: #31312F;
-}
-.vl {
-    border-left: 4px solid red;
-    height: 30px;
+
+  .film-button{
+      width: 6em;
+      height: 2em;
+      left: 12em;
+      position: relative;
+      color: black;
+      background-color: #F2F0F1;
+      border: none;
+      top: 2em;
+      margin-bottom: 2em;
   }
+  #plus-film{
+    width: 10em;
+    height: 2em;
+    left: 12em;
+    position: relative;
+    color: white;
+    background-color: #DA5247;
+    border: none;
+    top: 2em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+  }
+  #plus-button{
+    margin: 0 auto;
+    text-align: center;
+  }
+  blockquote {
+    font-size: 1.5em;
+    position: relative;
+    left: 4em;
+    text-indent: 0.45em;
+    border-left: 4px solid #DA5247;
+    text-transform: uppercase;
+  }
+
+.jumbotron{
+  padding: 0;
+}
+button.slick-prev{
+    visibility: hidden;
+}
+button.slick-next{
+  visibility: hidden;
+}
+.slick-dots li button {
+  font-size: 0px;
+  border: none;
+  width: 40px;
+  height: 6px;
+  background: transparent;
+  
+  cursor: pointer;
+  outline: 0;
+}
+/* button#slick-slide-control01, button#slick-slide-control02{
+  background: #ffffff;
+  color: white;
+  background-color: white;
+} */
+.slick-dots{
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  padding: 0;
+}
+.slick-dots li{
+  display: inline-block;
+  padding-right: 10px;
+}
+li.slick-active button{
+  background: #DA5247;
+}
+li.slick-active {
+  background: #DA5247;
+}
+.slick-initialized{
+  overflow: hidden;
+}
