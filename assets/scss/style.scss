@@ -19,7 +19,7 @@ color: #fff;
   
   position: relative;
   width: 8vh;
-  margin: 0 0 0 20vh;
+  margin: 0 0 0 8vh;
 }
 .form-inline.my-2.my-lg-0{
   width: 20vw;
@@ -215,7 +215,7 @@ h4{
   margin: 0 0 0 20px;
 }
 .formulaire{
-  background-color: wheat;
+  background-color: white;
   text-align: center;
   margin: 0 auto;
   width: 50vw;
@@ -277,7 +277,7 @@ footer{
   font-size: 14px;
  
 }
-.card{
+.card.footer{
   background-color: #0D0D0D;
 }
 .card-header.pt-0{
@@ -288,7 +288,7 @@ padding: 0;
 }
 .social{
   text-align: center;
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
 h5{
   color: grey;
@@ -297,4 +297,18 @@ h5{
 color: white;
 border: 1px white solid;
 padding: 8px 10px;
+transition: background-color 0.4s;
+&:hover{
+  background-color: rgb(189, 186, 186);
+}
+}
+.btn.btn{
+  padding: 0;
+}
+.container-fluid{
+  width: 300px;
+  
+}
+.col-md-2.mx-auto.grid{
+padding-left: 150px;
 }

@@ -18,7 +18,7 @@
 .nav-item.contact {
   position: relative;
   width: 8vh;
-  margin: 0 0 0 20vh;
+  margin: 0 0 0 8vh;
 }
 
 .form-inline.my-2.my-lg-0 {
@@ -231,7 +231,7 @@ h4 {
 }
 
 .formulaire {
-  background-color: wheat;
+  background-color: white;
   text-align: center;
   margin: 0 auto;
   width: 50vw;
@@ -299,7 +299,7 @@ footer {
   font-size: 14px;
 }
 
-.card {
+.card.footer {
   background-color: #0D0D0D;
 }
 
@@ -313,7 +313,7 @@ footer {
 
 .social {
   text-align: center;
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
 
 h5 {
@@ -324,5 +324,23 @@ h5 {
   color: white;
   border: 1px white solid;
   padding: 8px 10px;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.fab:hover {
+  background-color: #bdbaba;
+}
+
+.btn.btn {
+  padding: 0;
+}
+
+.container-fluid {
+  width: 300px;
+}
+
+.col-md-2.mx-auto.grid {
+  padding-left: 150px;
 }
 /*# sourceMappingURL=style.css.map */
