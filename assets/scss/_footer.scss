@@ -1,0 +1,56 @@
+footer{
+    background-color: #0D0D0D;
+  }
+  .container.text-center.text-md-left{
+    margin: 0 40px 0 40px;
+  }
+  .review-list{
+    float: left;
+    padding: 5px 5px 0 0;
+  }
+  .review-list a{
+    font-weight: 500;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    font-size: 14px;
+   
+  }
+  .card.footer{
+    background-color: #0D0D0D;
+  }
+  .card-header.pt-0{
+  padding: 0;
+  }
+  .footer-title{
+   color: #F9423E; 
+  }
+  .social{
+    text-align: center;
+    margin-top: 4vw;
+  }
+  h5{
+    color: grey;
+  }
+  .fab{
+  color: white;
+  border: 1px white solid;
+  padding: 8px 10px;
+  transition: background-color 0.4s;
+  &:hover{
+    background-color: rgb(189, 186, 186);
+  }
+  }
+  .btn.btn{
+    padding: 0;
+  }
+  .container-fluid.footer{
+    width: 300px;
+    
+  }
+  .col-md-2.mx-auto.grid{
+  padding-left: 150px;
+  }

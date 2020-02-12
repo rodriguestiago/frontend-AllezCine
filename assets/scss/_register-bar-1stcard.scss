@@ -1,0 +1,28 @@
+#register-bar{
+    background-color: #FF423E;
+    height: 3vw;
+    p{
+        color: white;
+    left:4vw;
+    line-height: 3vw;
+    position: relative;
+    top: 0;
+    }
+    button{
+      font-size: 1.3vw;
+        color: white;
+        background-color: black;
+        border: none;
+        text-transform: uppercase;
+        position: relative;
+        top: -3.7vw;
+        left: 20vw;
+        width: 10vw;
+    }
+}
+.first-ct {
+  border: 2px rgb(211, 206, 206) solid;
+  padding: 20px;
+  top: 1em;
+  position: relative;
+}
