@@ -61,7 +61,6 @@
                 <p class="card-text">${element.release_date.slice(0, 4)}</p>
                 </div>`
                 document.getElementById('featured').appendChild(HTML)
-
             }
         })
     }
