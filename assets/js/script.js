@@ -45,7 +45,7 @@
         console.log(ARR)
 
         for (let i = 0; i < 5; i++) {
-            let rand = Math.round(Math.random() * 19)
+            let rand = Math.round(Math.random() * 20)
             let idgenre = ""
             genre.forEach(gen => {
                 if (gen.id == ARR[rand].genre_ids[0])
@@ -61,7 +61,7 @@
           <div class="card-body"> <h5 class="card-title">${ARR[rand].title}</h5> 
           <p class="card-text">${ARR[rand].release_date.slice(0, 4)} </p>
           <p class='ml-auto'>${idgenre}</p>`
-            document.getElementById("movie").appendChild(HTML);
+            document.getElementById("movie").appendChild(HTML)
         }
     }
 
