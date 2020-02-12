@@ -1,27 +1,22 @@
 (() => {
     //---------------------------------- TO TOP BUTTON ------------------------------------
 
-    //Get the button:
-    let mybutton = document.getElementById("topButt");
+    //---------------------------------- NAVBAR ------------------------------------
 
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
+    window.onscroll = function() {
+        myFunction();
+      };
+    
+      function myFunction() {
+        if (
+          document.body.scrollTop > 50 ||
+          document.documentElement.scrollTop > 50
+        ) {
+          document.getElementById("myNav").classList.add("nav-colored");
         } else {
-            mybutton.style.display = "none";
+          document.getElementById("myNav").classList.remove("nav-colored");
         }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+      }
 
     //---------------------------------- MODAL POTO ------------------------------------
 
@@ -61,7 +56,20 @@
                 <p class="card-text">${element.release_date.slice(0, 4)}</p>
                 </div>`
                 document.getElementById('featured').appendChild(HTML)
-            }
+            } else {
+                const HTML = document.createElement("div")
+                HTML.classList =
+                  "card  defaultCard col-lg-2 col-md-6 col-sm-6 col-xs-12 mx-auto hidden"
+                HTML.style = "width: 18rem;"
+                HTML.id = `featured-${element.id}`
+                HTML.innerHTML = `
+              <img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">${element.title}</h5>
+                <p class="card-text">${element.release_date.slice(0, 4)}</p>
+              </div>`
+                document.getElementById("featured").appendChild(HTML)
+              }
         })
     }
     FEATURED(0)

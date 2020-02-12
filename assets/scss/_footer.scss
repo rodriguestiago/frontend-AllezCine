@@ -1,0 +1,130 @@
+footer{
+    background-color: rgb(7, 7, 7);
+    margin-bottom: 0px;
+
+    .capsOn {
+        text-transform: uppercase;
+        //padding: 15px;
+        font-weight: bolder;
+
+        h2 {
+            color: white;
+        }
+    }
+    
+    .container {
+        margin: 0 5px;
+    }
+
+    .subBut {
+        background-color: rgb(254, 66, 65);
+        color: white;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    a.subbBut, 
+    a.subbBut:hover{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .whiteSkins {
+        color: white;
+    }
+    .spaceIt {
+        margin-top: 10px;
+    }
+    .redSkins {
+        color: rgb(254, 66, 65);
+    }
+    .imgFilmMid {
+        max-width: 100%;
+        height: auto;
+    }
+    .imgFilmMid2 {
+        max-width: 20%;
+        height: auto;
+    }
+    .imgFilmMid3 {
+        max-width: 80%;
+        height: auto;
+    }
+    .imgFilmMid4 {
+        background-color: rgb(235, 231, 231);
+            box-shadow: 0 4px 2px -2px gray;
+            width: 100%;
+            margin-bottom: 30px;
+            p{
+                text-align: center;
+            }
+            .price{
+                display: flex;
+                justify-content: space-around;
+            }
+    }
+    .mainh2 {
+        border-left: 5px solid rgb(254, 66, 65);
+        font-weight: 400;
+        width :fit-content;
+        padding: 5px;
+        margin-left: 50px;
+        padding-left: 10px;
+    }
+    
+    .noDeco {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .buttonHome {
+        position: sticky;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        float: right;
+    }
+    
+    .iconeBottom {
+        font-size: 35px;
+        color: blue;
+    }
+    
+    .greySkins {
+        color: grey;
+    }
+    
+    .imageFam {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .imgFilmFoot {
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .boxOne {
+        padding: 1px;
+        margin: 1px;
+        color: white;
+        background-color: grey;
+    }
+    
+    .sub{
+        margin: 10px;
+        form {
+            display: inline;
+        }
+        button {
+            display: inline;
+        }
+    }
+
+    .list {
+        margin: 10px;
+    }
+}
