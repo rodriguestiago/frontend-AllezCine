@@ -59,10 +59,8 @@
             HTML.style = 'width: 18rem';
             HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${ARR[rand].poster_path}`}" class="card-img-top" alt="..."> 
           <div class="card-body"> <h5 class="card-title">${ARR[rand].title}</h5> 
-          <div class='d-flex'>
           <p class="card-text">${ARR[rand].release_date.slice(0, 4)} </p>
-          <span class='ml-auto'>${idgenre}</span>
-          </div>`
+          <p class='ml-auto'>${idgenre}</p>`
             document.getElementById("movie").appendChild(HTML);
         }
     }

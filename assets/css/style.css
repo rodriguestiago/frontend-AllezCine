@@ -383,6 +383,7 @@ header .carousel #slide-three {
   border: solid 1px whitesmoke;
   width: 100%;
   margin: 2% 3% 5% 0;
+  padding: 10px;
 }
 
 body {
