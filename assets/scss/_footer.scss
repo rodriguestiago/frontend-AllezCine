@@ -1,10 +1,10 @@
 footer{
     background-color: rgb(7, 7, 7);
     margin-bottom: 0px;
+    margin-top: 15px;
 
     .capsOn {
         text-transform: uppercase;
-        //padding: 15px;
         font-weight: bolder;
 
         h2 {
@@ -124,7 +124,7 @@ footer{
         }
     }
 
-    .list {
+    .list, .connect {
         margin: 10px;
     }
 }

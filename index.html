@@ -95,7 +95,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
         </div>
     </header>
     <main>
@@ -212,6 +211,11 @@
             </div>
         </div>
 
+        <section class="container">
+            <div id="movie" class="row">
+            </div>
+        </section>
+
         <section class="container featured">
             <h2>Featured movies</h2>
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -225,10 +229,41 @@
                     <input type="radio" name="options" id="btn-crime"> Crime
                 </label>
             </div>
-            <div class="row" id="featured"></div>
+            <div class="row" id="featured">
+            </div>
             <button class="btn btn-danger" id="plus-film">More movies</button>
         </section>
 
+        <section class="contact container">
+            <h2>CONTACT US</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input id="firstName" type="text" class="form-control mb-2 mr-2" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input id="lastName" type="text" class="form-control mb-2" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input id="emailContact" type="text" class="form-control mb-2 mr-2"
+                            placeholder="email@gmail.com">
+                    </div>
+                    <div class="col">
+                        <input id="subject" type="text" class="form-control mb-2" placeholder="subject">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <textarea id="textMessage" name="area" class="form-control mt-2" rows="10"
+                            placeholder="Your message"></textarea>
+                        <button class="btn btn-danger" type="button" id="sendMessage">SEND MESSAGE</button>
+                    </div>
+
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="sub text-center">
