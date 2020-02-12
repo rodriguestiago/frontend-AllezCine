@@ -232,7 +232,6 @@ h4 {
 
 .formulaire {
   background-color: white;
-  text-align: center;
   margin: 0 auto;
   width: 50vw;
   height: 20vw;
@@ -258,14 +257,15 @@ h4 {
 }
 
 #form-button {
-  margin-top: 5vw;
+  margin-top: 1vw;
+  height: 2.2vw;
   background-color: #F9423E;
   text-transform: uppercase;
   font-weight: 600;
   color: white;
-  font-size: 1.2vw;
+  font-size: 1vw;
   border: none;
-  margin-left: 30vw;
+  /*   margin-left: 1vw; */
   z-index: 999;
   position: relative;
 }
@@ -336,7 +336,7 @@ h5 {
   padding: 0;
 }
 
-.container-fluid {
+.container-fluid.footer {
   width: 300px;
 }
 
