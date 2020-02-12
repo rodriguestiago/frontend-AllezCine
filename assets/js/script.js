@@ -2,7 +2,7 @@
     //---------------------------------- TO TOP BUTTON ------------------------------------
 
     //Get the button:
-    mybutton = document.getElementById("myBtn");
+    let mybutton = document.getElementById("topButt");
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
@@ -65,4 +65,14 @@
         })
     }
     FEATURED(0)
+
+    //---------------------------------- SLIDER ------------------------------------
+
+
+    $('.main-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 400,
+        slidesToShow: 1,
+      })
 })()
