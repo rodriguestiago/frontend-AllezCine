@@ -5,6 +5,7 @@
 @import 'header';
 @import 'featured';
 @import 'cards';
+@import 'h';
 
 body {
     font-size: medium;
@@ -12,6 +13,9 @@ body {
 
     main {
         overflow: hidden;
+        section {
+          margin: 15px;
+        }
     }
     
     footer{

@@ -95,6 +95,12 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <div class="container-fluid" id="register-bar">
+                <i class="fas fa-phone-alt"></i>
+                <p>(+000) 009 455 4088)</p>
+                <button type="button" id="login" class="btn btn-dark">Login</button>
+                <button type="button" id="register" class="btn btn-dark">Register</button>
+            </div>
         </div>
     </header>
     <main>
@@ -125,12 +131,6 @@
                 </button>
             </div>
         </aside>
-        <div class="container-fluid" id="register-bar">
-            <i class="fas fa-phone-alt"></i>
-            <p>(+000) 009 455 4088)</p>
-            <button type="button" id="login" class="btn btn-dark">Login</button>
-            <button type="button" id="register" class="btn btn-dark">Register</button>
-        </div>
 
         <div class="modal fade" id="modlogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -222,16 +222,21 @@
                 <label class="btn btn-secondary active">
                     <input type="radio" name="options" id="btn-all" checked> All
                 </label>
-                <label for="" class="btn btn-secondary">
+                <label  class="btn btn-secondary">
                     <input type="radio" name="options" id="btn-action"> Action
                 </label>
-                <label for="" class="btn btn-secondary">
+                <label  class="btn btn-secondary">
                     <input type="radio" name="options" id="btn-crime"> Crime
                 </label>
             </div>
             <div class="row" id="featured">
             </div>
             <button class="btn btn-danger" id="plus-film">More movies</button>
+        </section>
+
+        <section class="container movieShop">
+            <h2>SHOP MOVIES</h2>
+            <div class="row" id="shop"></div>
         </section>
 
         <section class="contact container">
@@ -264,6 +269,7 @@
                 </div>
             </form>
         </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
     </main>
     <footer>
         <div class="sub text-center">
@@ -271,7 +277,7 @@
             <form>
               <input type="text" name="user_mail" placeholder="Email Adress">
             </form>
-            <button class="btn btn-danger" href="newsletter.html" target="_blank">Subscribe</button>
+            <button class="btn btn-danger">Subscribe</button>
         </div>
         <div class="container-fluid list text-center">
           <div class="row">
@@ -337,7 +343,6 @@
         src="http://chs03.cookie-script.com/s/2d7e331b9de7b94bbc8c55f716efef1d.js"></script>
     <!--End Cookie Script-->
     <script type="text/javascript" src="./assets/js/script.js"></script>
-    <script type="text/javascript" src="./assets/js/to-top-button.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>

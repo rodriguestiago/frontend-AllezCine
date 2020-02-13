@@ -91,8 +91,6 @@
 }
 
 #myBtn {
-  display: none;
-  /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
   bottom: 20px;
@@ -101,14 +99,19 @@
   /* Place the button 30px from the right */
   z-index: 99;
   /* Make sure it does not overlap */
-  border: #FB4039 2px solid;
+  border: none;
+  /* Remove borders */
   outline: none;
   /* Remove outline */
+  background-color: red;
+  /* Set a background color */
   color: white;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
-  border-radius: 50%;
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
   /* Rounded corners */
   font-size: 18px;
   /* Increase font size */
@@ -370,20 +373,19 @@ header .carousel #slide-three {
   margin-right: 40%;
 }
 
-.defaultCard {
-  border: none;
-  padding: 5px;
-}
-
-.defaultCard p {
-  font-size: 90%;
-}
-
 #movie {
   border: solid 1px whitesmoke;
   width: 100%;
   margin: 2% 3% 5% 0;
   padding: 10px;
+}
+
+h2 {
+  font-size: 180%;
+  padding-left: 5px;
+  border-left: solid #FF413C 3px;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 body {
@@ -393,6 +395,10 @@ body {
 
 body main {
   overflow: hidden;
+}
+
+body main section {
+  margin: 15px;
 }
 
 body footer {

@@ -1,6 +1,28 @@
 (() => {
     //---------------------------------- TO TOP BUTTON ------------------------------------
 
+    //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+
+document.getElementById('myBtn').addEventListener('click', topFunction())
+
     //---------------------------------- NAVBAR ------------------------------------
 
     window.onscroll = function () {
@@ -44,25 +66,20 @@
         DIV.innerHTML = ""
         console.log(ARR)
 
-        for (let i = 0; i < 5; i++) {
-            let rand = Math.round(Math.random() * 20)
-            let idgenre = ""
-            genre.forEach(gen => {
-                if (gen.id == ARR[rand].genre_ids[0])
-                    idgenre = gen.name
-            })
-
-            ARR[rand].genre_ids[0]
-
-            const HTML = document.createElement("div");
-            HTML.classList = 'card defaultCard col-lg-2 col-md-2 col-sm-6 col-xs-12 mx-auto';
-            HTML.style = 'width: 18rem';
-            HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${ARR[rand].poster_path}`}" class="card-img-top" alt="..."> 
-          <div class="card-body"> <h5 class="card-title">${ARR[rand].title}</h5> 
-          <p class="card-text">${ARR[rand].release_date.slice(0, 4)} </p>
-          <p class='ml-auto'>${idgenre}</p>`
-            document.getElementById("movie").appendChild(HTML)
-        }
+        ARR.forEach((element, index) => {
+            if (index < 4) {
+                const HTML = document.createElement('div')
+                HTML.classList = "card defaultCard col-12 col-md-3"
+                HTML.id = `featured-${element.id}`
+                HTML.style = "width: 18rem"
+                HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">${element.title}</h5>
+                <p class="card-text">${element.release_date.slice(0, 4)}</p>
+                </div>`
+                document.getElementById('movie').appendChild(HTML)
+            }
+        })
     }
 
     MOVIE()
@@ -78,7 +95,7 @@
         ARR.forEach((element, index) => {
             if (index < 12) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-lg-2 col-md-6 col-sm-6 col-xs-12 mx-auto"
+                HTML.classList = "card defaultCard col-12 col-md-3"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
@@ -90,7 +107,7 @@
             } else {
                 const HTML = document.createElement("div")
                 HTML.classList =
-                    "card  defaultCard col-lg-2 col-md-6 col-sm-6 col-xs-12 mx-auto hidden"
+                    "card  defaultCard col-12 col-md-3 hidden"
                 HTML.style = "width: 18rem;"
                 HTML.id = `featured-${element.id}`
                 HTML.innerHTML = `
@@ -112,6 +129,33 @@
             }
         )
     })
+
+    const SHOP = async cat => {
+        const REQUEST = await fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=0b71d51c9048d107297da2c4b288038d&language=en-US&page=1')
+        const DATA = await REQUEST.json()
+        const ARR = await DATA.results
+        const ROW = document.getElementById('shop')
+        ROW.innerHTML = ""
+        console.log(ARR)
+
+        ARR.forEach((element, index) => {
+            if (index < 8) {
+                const HTML = document.createElement('div')
+                HTML.classList = "card defaultCard col-12 col-md-3"
+                HTML.id = `featured-${element.id}`
+                HTML.style = "width: 18rem"
+                HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">${element.title}</h5>
+                <p class="card-text">${element.release_date.slice(0, 4)}</p>
+                </div>`
+                document.getElementById('shop').appendChild(HTML)
+            }
+        })
+    }
+
+
+    SHOP()
 
     const genre = [{
             id: 28,
