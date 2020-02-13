@@ -1,0 +1,30 @@
+.newsletter {
+    padding: 80px 0;
+}
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+.newsletter .content h3 {
+    color: #FF423E;
+}
+.newsletter .content .form-control {
+    height: 50px;
+    border-radius: 0;
+    border-color: #ffffff;
+}
+.newsletter .content .btn {
+    min-height: 50px; 
+    border: white;
+    font-size: 20px;
+    width: 17vh;
+    margin-left: 20px;
+    text-transform: uppercase;
+    border-radius:0;
+    background: #FF423E;
+    color: #fff;
+    font-weight:600;
+}
