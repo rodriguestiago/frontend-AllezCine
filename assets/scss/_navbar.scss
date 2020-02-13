@@ -1,0 +1,50 @@
+.jumbotron{
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 2.5em;
+  }
+  .nav-link.dropdown-toggle{
+  background-color: #F9423E;
+  color: #fff;
+  }
+  .nav-item.button{
+    background-color: black;
+    opacity: 0.5;
+    width: 8vh;
+    margin: 0 0 0 5px;
+  }
+  .nav-item.contact{
+    position: relative;
+    width: 8vh;
+    margin: 0 0 0 8vh;
+  }
+  .form-inline.my-2.my-lg-0{
+    width: 20vw;
+  }
+  .form-control.my-0.py-1.red-border{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    opacity: 0.6;
+  }
+  .input-group-text.red.lighten-3{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    opacity: 0.6;
+  }
+  .fas.fa-search{
+    color: white;
+    opacity: 0.7;
+  }
+  .first{
+    color: #F9423E;
+    font-weight: 700;
+  }
+  .second{
+    color: #ffffff;
+    font-weight: 700;
+  }

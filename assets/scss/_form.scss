@@ -1,0 +1,33 @@
+.formulaire{
+    background-color: white;
+    margin: 0 auto;
+    width: 50vw;
+    height: 20vw;
+  }
+  #fname{
+    width: 24vw;
+    margin-bottom: 1vw;
+  }
+  #lname{
+    width: 24vw;
+    margin-bottom: 1vw;
+  }
+  #email{
+    width: 24vw;
+    margin-bottom: 1vw;
+  }
+  #subject{
+    width: 24vw;
+  }
+  #form-button{
+    margin-top: 1vw;
+    height: 2.2vw;
+    background-color: #F9423E;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    font-size: 1vw;
+    border: none;
+    z-index: 999;
+    position: relative;
+  }
