@@ -1,479 +1,358 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-            <script type="text/javascript" src="./assets/js/script.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="https://kit.fontawesome.com/4e7b59516f.js" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <link rel="stylesheet" href="./assets/css/style.css">
-            <meta charset="UTF-8">
-            <title>AllezCine</title>
-    </head>
-    <body>
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <header class="container-fluid">
-              <nav class="navbar navbar-expand-lg navbar-light ">
-                  <a class="navbar-brand" href="#"><span class="first">Allez</span><span class="second">Cine!</span></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link home text-danger" href="#">HOME<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          GENRE
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Comedy</a>
-                          <a class="dropdown-item" href="#">Western</a>
-                          <a class="dropdown-item" href="#">Fiction</a>
-                      </li>
-                      <li class="nav-item button">
-                          <a class="nav-link" href="#"></a>
-                      </li>
-                      <li class="nav-item button">
-                        <a class="nav-link" href="#"></a>
-                      </li>
-                      <li class="nav-item button">
-                        <a class="nav-link" href="#"></a>
-                      </li>
-                      <li class="nav-item contact">
-                        <a class="nav-link" href="#">CONTACT</a>
-                      </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                      <div class="input-group md-form form-sm form-2 pl-0 col-12 ">
-                          <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-                          <div class="input-group-append ">
-                            <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search " aria-hidden="false"></i></span>
-                          </div>
-                        </div>
-                    </form>
-                  </div>
-                </nav>
-          </header>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active"><h2>Latest <span class="slider-h2">on</span>line <span class="slider-h2">mo</span>vies</h2><h4>In Space no one can hear you scream.</h4><button type="button" class="slider-button">Watch Trailer</button>
-                  <img class="d-block w-100" src="./assets/img/me3 - Copie.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item"><h2>Latest <span class="slider-h2">on</span>line <span class="slider-h2">mo</span>vies</h2><h4>In Space no one can hear you scream.</h4><button type="button" class="slider-button">Watch Trailer</button>
-                  <img class="d-block w-100" src="./assets/img/me3.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item"><h2>Latest <span class="slider-h2">on</span>line <span class="slider-h2">mo</span>vies</h2><h4>In Space no one can hear you scream.</h4><button type="button" class="slider-button">Watch Trailer</button>
-                  <img class="d-block w-100" src="./assets/img/me3.jpg" alt="Third slide">
-                </div>
-                <div class="carousel-item"><h2>Latest <span class="slider-h2">on</span>line <span class="slider-h2">mo</span>vies</h2><h4>In Space no one can hear you scream.</h4><button type="button" class="slider-button">Watch Trailer</button>
-                  <img class="d-block w-100" src="./assets/img/me3.jpg" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-<div id="register-bar">
-    <p><i class="fas fa-phone-alt"></i>(+000) 009 455 4088)</p>
-    <button type="button">Login</button>
-    <button type="button">Register</button>
-</div>
-          <div class="container first-ct mb-5">
-            <div class="card-deck">
-              <div class="card">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">Year</p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">Year</p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">Year</p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">Year</p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">Year</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <blockquote>Featured movies</blockquote>
-          <button type="button" class="film-button">All</button>
-          <button type="button" class="film-button">Actions</button>
-          <button type="button" class="film-button">Policiers</button>
-      <div class="container 2nd mt-4 mb-5">
-            <div class="card-deck">
-              <div class="card ml-0 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-0">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container 2nd">
-            <div class="card-deck">
-              <div class="card ml-0 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-1">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-              <div class="card ml-1 mr-0">
-                <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-                <div class="card-body">
-                  <h4 class="card-title">title</h4>
-                  <p class="card-text">.card-text</p>
-                </div>
-              </div>
-            </div>
-          </div>
-<div id="plus-button">          
-    <button type="button" id="plus-film">Plus de films</button>
-</div>
-<blockquote class="shop-movies">Shop Movies</blockquote>
-<div class="container third-ct mb-5">
-  <div class="card-deck">
-    <div class="card ml-0 mr-1 ">
-      <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-      <div class="card-body">
-        <h4 class="card-title">title</h4>
-        <p class="card-text">.card-text</p>
-      </div>
-    </div>
-    <div class="card ml-1 mr-1">
-      <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-      <div class="card-body">
-        <h4 class="card-title">title</h4>
-        <p class="card-text">.card-text</p>
-      </div>
-    </div>
-    <div class="card ml-1 mr-1">
-      <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-      <div class="card-body">
-        <h4 class="card-title">title</h4>
-        <p class="card-text">.card-text</p>
-      </div>
-    </div>
-    <div class="card ml-1 mr-1">
-      <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" alt="Card image cap" width="400">
-      <div class="card-body">
-        <h4 class="card-title">title</h4>
-        <p class="card-text">.card-text</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="./assets/img/images.jfif" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="./assets/img/téléchargement (1).jfif" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="./assets/img/téléchargement.jfif" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<form class="formulaire" action="/action_page.php">
-  <input type="text" name="firstname" id="fname" placeholder="FIRST NAME">
-  <input type="text" name="lastname" id="lname" placeholder="LAST NAME">
-  <input type="text" name="email" id="email" placeholder="EMAIL">
-  <input type="text" name="subject" id="subject" placeholder="SUBJECT">
-  <textarea id="w3mission" rows="4" cols="103" placeholder="YOUR MESSAGE"></textarea>
-  <input type="submit" id="form-button" value="Send Message">
-</form>
-<footer class="page-footer font-small">
-  <section class="newsletter">
-    <article class="container">
-      <article class="row">
-        <article class="col-sm-12">
-          <article class="content">
-            <h3>SUBSCRIBE TO US</h3>
-            <article class="input-group">
-              <input type="email" class="form-control border" placeholder="Enter your email...">
-              <span class="input-group-btn">
-                <button class="btn" type="submit">Subscribe</button>
-              </span>
-            </article>
-          </article>
-        </article>
-      </article>
-    </article>
-  </section>
-  <div class="container text-center text-md-left">
-    <div class="row">
-      <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Release</h5>
+<html lang="en">
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-muted">2016</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">2015</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">2014</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">2013</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">2012</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">2011</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Movies</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-muted">Adventure</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">Comedy</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">Fantasy</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">Action</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">Movies</a>
-          </li>
-          <li>
-            <a href="#!" class="text-muted">Horror</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-4 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Review Movies</h5>
-        <ul class="list-unstyled">
-          <li class="review-list">
-            <a href="#!">Comedy</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Horror</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Historical</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Romantic</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Love</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Action</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Reviews</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Comedy</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Horror</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Historical</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Romantic</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Love</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Comedy</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Horror</a>
-          </li>
-          <li class="review-list">
-            <a href="#!">Historical</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light">Latest Movies</h5>
-        <div class="card footer mt-4" style="width: 18rem;">
-          <div class="card-header pt-0" style="height: 6rem;">
-              <img src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" class="float-left mt-2 mr-2" width="150">
-              <h6 class="card-title my-0 mt-2 text-muted">Movie</h6>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4e7b59516f.js" crossorigin="anonymous"></script>
+
+    <title>AllezCine</title>
+</head>
+
+<body>
+    <header>
+        <nav id='myNav' class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
+            <a class="navbar-brand" href="#">
+                <span class="text-danger">ALLEZ</span>
+                <span class="text-white">CINE!</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-danger" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Films</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input id="nav-search" class="form-control" type="text" placeholder="recherche">
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div id="slide-one" class="carousel-item active">
+                        <!-- <img src="./assets/img/hero.jpg" class="d-block w-100" alt="..."> -->
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="justify-content-center"><span>LATEST </span><span
+                                    class="text-danger">ON</span><span>LINE </span><span
+                                    class="text-danger">MO</span><span>VIES</span></h5>
+                            <p>LOREM</p>
+                            <button type="button" class="btn btn-danger">Watch trailer</button>
+                        </div>
+                    </div>
+                    <div id="slide-two" class="carousel-item">
+                        <!-- <img src="./assets/img/hero2.jpg" class="d-block w-100" alt="..."> -->
+                        <div class="carousel-caption d-md-block">
+                            <h5><span>LATEST </span><span class="text-danger">ON</span><span>LINE </span><span
+                                    class="text-danger">MO</span><span>VIES</span></h5>
+                            <p>LOREM</p>
+                            <button type="button" class="btn btn-danger">Watch trailer</button>
+                        </div>
+                    </div>
+                    <div id="slide-three" class="carousel-item">
+                        <!-- <img src="./assets/img/hero.jpg" class="d-block w-100" alt="..."> -->
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="justify-content-center"><span>LATEST </span><span
+                                    class="text-danger">ON</span><span>LINE </span><span
+                                    class="text-danger">MO</span><span>VIES</span></h5>
+                            <p>LOREM</p>
+                            <button type="button" class="btn btn-danger">Watch trailer</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container-fluid" id="register-bar">
+                <i class="fas fa-phone-alt"></i>
+                <p>(+000) 009 455 4088)</p>
+                <button type="button" id="login" class="btn btn-dark">Login</button>
+                <button type="button" id="register" class="btn btn-dark">Register</button>
+            </div>
         </div>
-        <div class="card footer" style="width: 18rem;">
-          <div class="card-header pt-0" style="height: 6rem;">
-              <img src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" class="float-left mt-2 mr-2" width="150">
-              <h6 class="card-title my-0 mt-2 text-muted">Movie</h6>
-          </div>
+    </header>
+    <main>
+        <aside class="icon-bar">
+            <div>
+                <button class="parent facebook" id="facebook" name="button">
+                    <span><a href="https://fr-fr.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></span>
+                    <i class="fab fa-facebook-f links" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div>
+                <button class="parent twitter" id="twitter" name="button">
+                    <span><a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a></span>
+                    <i class="fab fa-twitter links" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div>
+                <button class="parent dribbble" id="dribbble" name="button">
+                    <span><a href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribbble</a></span>
+                    <i class="fab fa-dribbble links" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div>
+                <button class="parent gplus" id="gplus" name="button">
+                    <span><a href="https://plus.google.com/" target="_blank" rel="noreferrer">Google Plus</a></span>
+                    <i class="fab fa-google links" aria-hidden="true"></i>
+                </button>
+            </div>
+        </aside>
+
+        <div class="modal fade" id="modlogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="username" class="col-form-label">Username:</label>
+                                <input type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-form-label">Password:</label>
+                                <input type="text" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" id="remainco" name="remainco">
+                                <label for="remainco">Remain connected</label>
+                            </div>
+                            <div class="form-group">
+                                <a href="#!">Forgotten password</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Login</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card footer" style="width: 18rem;">
-          <div class="card-header pt-0" style="height: 6rem;">
-              <img src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" class="float-left mt-2 mr-2" width="150">
-              <h6 class="card-title my-0 mt-2 text-muted">Movie</h6>s
-          </div>
+
+        <div class="modal fade" id="modregister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-form-label">Email:</label>
+                                <input type="text" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="col-form-label">Password:</label>
+                                <input type="text" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmpassword" class="col-form-label">Confirm your password:</label>
+                                <input type="text" class="form-control" id="confirmpassword">
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" id="tos" name="tos">
+                                <label for="tos">Terms of Service</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Register</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card footer" style="width: 18rem;">
-          <div class="card-header pt-0" style="height: 6rem;">
-              <img src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-topfff&text=.card-img-top" class="float-left mt-2 mr-2" width="150">
-              <h6 class="card-title my-0 mt-2 text-muted">Movie</h6>
-          </div>
+
+        <section class="container">
+            <div id="movie" class="row">
+            </div>
+        </section>
+
+        <section class="container featured">
+            <h2>Featured movies</h2>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="btn-all" checked> All
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="btn-action"> Action
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="btn-crime"> Crime
+                </label>
+            </div>
+            <div class="row" id="featured">
+            </div>
+            <button class="btn btn-danger" id="plus-film">More movies</button>
+        </section>
+
+        <section class="container movieShop">
+            <h2>SHOP MOVIES</h2>
+            <div class="row" id="shop"></div>
+        </section>
+
+        <section class="contact container">
+            <h2>CONTACT US</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input id="firstName" type="text" class="form-control mb-2 mr-2" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input id="lastName" type="text" class="form-control mb-2" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input id="emailContact" type="text" class="form-control mb-2 mr-2"
+                            placeholder="email@gmail.com">
+                    </div>
+                    <div class="col">
+                        <input id="subject" type="text" class="form-control mb-2" placeholder="subject">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <textarea id="textMessage" name="area" class="form-control mt-2" rows="10"
+                            placeholder="Your message"></textarea>
+                        <button class="btn btn-danger" type="button" id="sendMessage">SEND MESSAGE</button>
+                    </div>
+
+                </div>
+            </form>
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </main>
+    <footer>
+        <div class="sub text-center">
+            <h3 class="capsOn"><span class="text-danger">Subscribe to us</span></h3>
+            <form>
+                <input type="text" name="user_mail" placeholder="Email Adress">
+            </form>
+            <form action="newsletter.html" target="_blank">
+                <button class="btn btn-danger">Subscribe</button>
+            </form>
         </div>
-      </div>
-      <hr class="clearfix w-100 d-md-none">
-      <div class="col-md-2 mx-auto grid">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-light"><span class="footer-title">Allez</span>Cine!</h5>
-        <div class="container-fluid footer">
-          <div class="row">
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavender;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavenderblush;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavender;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavender;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavenderblush;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-            <div class="col-sm-4 pr-0 pl-0" style="background-color:lavender;"><img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
-              class="img-fluid"></div>
-          </div>
+        <div class="container-fluid list text-center">
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <h4 class="capsOn whiteSkins">Release</h4>
+                    <span class="greySkins">2020</span><br>
+                    <span class="greySkins">2019</span><br>
+                    <span class="greySkins">2018</span><br>
+                    <span class="greySkins">2017</span><br>
+                    <span class="greySkins">2016</span><br>
+                    <span class="greySkins">2015</span>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h4 class="capsOn whiteSkins">Popular</h4>
+                    <span class="greySkins">Adventure</span><br>
+                    <span class="greySkins">Comedy</span><br>
+                    <span class="greySkins">Action</span><br>
+                    <span class="greySkins">Horror</span><br>
+                    <span class="greySkins">Fantasy</span><br>
+                    <span class="greySkins">War</span>
+                </div>
+                <div class="col-12 col-md-2">
+                    <h4 class="capsOn whiteSkins">All</h4>
+                    <span class="boxOne">Action</span>
+                    <span class="boxOne">Animation</span>
+                    <span class="boxOne">Comedy</span>
+                    <span class="boxOne">Drama</span>
+                    <span class="boxOne">Fantasy</span>
+                    <span class="boxOne">Historical</span>
+                    <span class="boxOne">Horror</span>
+                    <span class="boxOne">Love</span>
+                    <span class="boxOne">Reviews</span>
+                    <span class="boxOne">Romantic</span>
+                    <span class="boxOne">Science Fiction</span>
+                    <span class="boxOne">Thriller</span>
+                    <span class="boxOne">War</span>
+                    <span class="boxOne">Werstern</span>
+                </div>
+                <div class="col-12 col-md-3 text-center">
+                    <h4 class="capsOn whiteSkins">Latest movies</h4>
+                    <img src="./assets/img/1917.jfif" alt="film1" class="imgFilmFoot">
+                    <img src="./assets/img/bad-boys3.jfif" alt="film2" class="imgFilmFoot">
+                    <img src="./assets/img/queen-slim.jfif" alt="film3" class="imgFilmFoot">
+                    <img src="./assets/img/ducobu.jpg" alt="film4" class="imgFilmFoot">
+                </div>
+                <div class="col-12 col-md-3 text-center">
+                    <h2 class="capsOn"><span class="text-danger">Allez</span><span class="whiteSkins">Cine!</span></h2>
+                    <img src="./assets/img/film-fam.jpg" alt="famille + film" class="imageFam">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-<div class="social">
-  <h5>CONNECT US</h5>
-  <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button>
-  <button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button>
-  <button type="button" class="btn btn-li"><i class="fab fa-linkedin-in"></i></button>
-  <button type="button" class="btn btn-yt"><i class="fab fa-youtube"></i></button>
-  <button type="button" class="btn btn-gplus"><i class="fab fa-google-plus-g"></i></button>
-</div>
-</footer>    
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        </body>
+        <div class="connect text-center">
+            <h3 class="capsOn whiteSkins">Connect us</h3>
+            <span class="greySkins iconeBottom fab fa-facebook-square"></span>
+            <span class="greySkins iconeBottom fab fa-twitter-square"></span>
+            <span class="greySkins iconeBottom fab fa-youtube-square"></span>
+            <span class="greySkins iconeBottom fab fa-linkedin"></span>
+            <span class="greySkins iconeBottom fab fa-github-square"></span>
+        </div>
+    </footer>
+    <!--Start Cookie Script-->
+    <script type="text/javascript" charset="UTF-8"
+        src="http://chs03.cookie-script.com/s/2d7e331b9de7b94bbc8c55f716efef1d.js"></script>
+    <!--End Cookie Script-->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>

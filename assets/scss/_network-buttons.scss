@@ -1,0 +1,66 @@
+$border-radius : 50px;
+
+.icon-bar {
+    position: fixed;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 5;
+
+    button {
+        border: none;
+    }
+
+    .facebook {
+        background-color: #3b5998;
+    }
+
+    .twitter {
+        background-color: #1DA1F3;
+    }
+
+    .dribbble {
+        background-color: #E54583;
+    }
+
+    .gplus {
+        background-color: #DD4B3F;
+    }
+
+    .fab {
+        font-size: 25px;
+    }
+
+    .links {
+        background-color: #FFF;
+        border-radius: $border-radius;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .parent {
+        margin-top: 3px;
+        border-radius: 0 50px 50px 0;
+        padding: 5px;
+        text-align: center;
+        cursor: pointer;
+
+        span {
+            display: none;
+            width: 0px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    :active span,
+    :focus span {
+        display: inherit;
+        width: 100px;
+    }
+}

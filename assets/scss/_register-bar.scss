@@ -1,0 +1,27 @@
+#register-bar {
+    display: flexbox;
+    background-color: #FF423E;
+    padding: 5px;
+    font-size: small;
+
+    i {
+        color: white;
+        margin-left: 30px;
+    }
+
+    p {
+        display: inline;
+        color: white;
+        margin: 0 10px;
+    }
+
+    button {
+        display: inline;
+        color: white;
+        background-color: black;
+        border: none;
+        text-transform: uppercase;
+        padding: 4px;
+        padding-bottom: 4px;
+    }
+}

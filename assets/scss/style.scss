@@ -1,12 +1,25 @@
-@import 'navbar';
-@import 'carousel';
-@import 'register-bar-1stcard';
-@import 'featured-movies';
-@import 'shop-movies';
-@import 'form';
-@import 'newsletter';
+@import 'network-buttons';
+@import 'register-bar';
+@import 'to-top-button';
 @import 'footer';
+@import 'header';
+@import 'featured';
+@import 'cards';
+@import 'h';
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;  
+
+    main {
+        overflow: hidden;
+        section {
+          margin: 15px;
+        }
+    }
+    
+    footer{
+      overflow: hidden;
+
+    }
 }
