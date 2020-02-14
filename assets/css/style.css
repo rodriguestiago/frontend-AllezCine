@@ -398,6 +398,10 @@ html body {
   font-family: 'Roboto', sans-serif;
 }
 
+html body .carousel-inner {
+  height: 500px;
+}
+
 html body main {
   overflow: hidden;
 }

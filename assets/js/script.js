@@ -45,9 +45,9 @@
         console.log(ARR)
 
         ARR.forEach((element, index) => {
-            if (index < 4) {
+            if (index < 5) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-12 col-md-3"
+                HTML.classList = "card defaultCard col-12 col-md-2"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
@@ -73,7 +73,7 @@
         ARR.forEach((element, index) => {
             if (index < 12) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-12 col-md-3"
+                HTML.classList = "card defaultCard col-12 col-md-2 border-0"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
@@ -119,7 +119,7 @@
         ARR.forEach((element, index) => {
             if (index < 8) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-12 col-md-3"
+                HTML.classList = "card defaultCard col-12 col-md-2 mr-2"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
