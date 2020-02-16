@@ -1,5 +1,14 @@
 (() => {
-    //---------------------------------- TO TOP BUTTON ------------------------------------
+//---------------------------------- SUBSCRIBE ------------------------------------
+
+
+document.getElementById('subscribe').addEventListener('click',()=>{
+    if (!document.getElementById('sub-input').value) {
+      alert('Enter your email to subscribe')
+    } else {
+        document.getElementById('subscribe').href = "newsletter.html"
+    } 
+  })
 
     //---------------------------------- NAVBAR ------------------------------------
 
@@ -45,9 +54,9 @@
         console.log(ARR)
 
         ARR.forEach((element, index) => {
-            if (index < 5) {
+            if (index < 6) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-12 col-md-2"
+                HTML.classList = "card defaultCard col-12 col-md-2 border-0"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
@@ -85,7 +94,7 @@
             } else {
                 const HTML = document.createElement("div")
                 HTML.classList =
-                    "card  defaultCard col-12 col-md-3 hidden"
+                    "card  defaultCard col-12 col-md-2 border-0 hidden"
                 HTML.style = "width: 18rem;"
                 HTML.id = `featured-${element.id}`
                 HTML.innerHTML = `
@@ -119,7 +128,7 @@
         ARR.forEach((element, index) => {
             if (index < 8) {
                 const HTML = document.createElement('div')
-                HTML.classList = "card defaultCard col-12 col-md-2 mr-2"
+                HTML.classList = "card defaultCard col-12 col-md-2 border-0 mr-2"
                 HTML.id = `featured-${element.id}`
                 HTML.style = "width: 18rem"
                 HTML.innerHTML = `<img src="${`https://image.tmdb.org/t/p/w500/${element.poster_path}`}" class="card-img-top">
