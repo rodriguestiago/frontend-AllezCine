@@ -120,6 +120,7 @@
 #myBtn:hover {
   background-color: #555;
   /* Add a dark-grey background on hover */
+  text-decoration: none;
 }
 
 footer {
@@ -388,20 +389,28 @@ h2 {
   margin-bottom: 1em;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
   font-size: medium;
   font-family: 'Roboto', sans-serif;
 }
 
-body main {
+html body .carousel-inner {
+  height: 500px;
+}
+
+html body main {
   overflow: hidden;
 }
 
-body main section {
+html body main section {
   margin: 15px;
 }
 
-body footer {
+html body footer {
   overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,9 +7,16 @@
 @import 'cards';
 @import 'h';
 
-body {
+html {
+  scroll-behavior: smooth;
+
+  body {
     font-size: medium;
     font-family: 'Roboto', sans-serif;  
+
+    .carousel-inner{
+      height: 500px;
+    }
 
     main {
         overflow: hidden;
@@ -22,4 +29,6 @@ body {
       overflow: hidden;
 
     }
+  }
 }
+

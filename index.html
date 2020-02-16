@@ -35,16 +35,16 @@
                         <a class="nav-link text-danger" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Films</a>
+                        <a class="nav-link" href="#movies">Films</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Featured Movies</a>
+                        <a class="nav-link" href="#featured-movies">Featured Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop Movie</a>
+                        <a class="nav-link" href="#shop-movies">Shop Movie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-md-0">
@@ -62,7 +62,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div id="slide-one" class="carousel-item active">
-                        <!-- <img src="./assets/img/hero.jpg" class="d-block w-100" alt="..."> -->
+                        <img src="./assets/img/me3cop2.jpg" class="d-block w-100" alt="Me movie">
                         <div class="carousel-caption d-md-block">
                             <h5 class="justify-content-center"><span>LATEST </span><span
                                     class="text-danger">ON</span><span>LINE </span><span
@@ -73,7 +73,7 @@
                     </div>
                         <!------------------------------------------------------------ SLIDER ------------------------------------------------------------------------->
                     <div id="slide-two" class="carousel-item">
-                        <!-- <img src="./assets/img/hero2.jpg" class="d-block w-100" alt="..."> -->
+                        <img src="./assets/img/me3cop2.jpg" class="d-block w-100" alt="Me movie">
                         <div class="carousel-caption d-md-block">
                             <h5><span>LATEST </span><span class="text-danger">ON</span><span>LINE </span><span
                                     class="text-danger">MO</span><span>VIES</span></h5>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div id="slide-three" class="carousel-item">
-                        <!-- <img src="./assets/img/hero.jpg" class="d-block w-100" alt="..."> -->
+                        <img src="./assets/img/ford-v-ferrari-special-offer.jpg" class="d-block w-100" alt="Me movie">
                         <div class="carousel-caption d-md-block">
                             <h5 class="justify-content-center"><span>LATEST </span><span
                                     class="text-danger">ON</span><span>LINE </span><span
@@ -222,18 +222,14 @@
             </div>
         </div>
 
-    <!------------------------------------------------------------ MOVIE ------------------------------------------------------------------------->
-
-        <section class="container">
+        <section id="movies" class="container">
             <div id="movie" class="row">
             </div>
         </section>
 
-    <!------------------------------------------------------------ FEATURED ------------------------------------------------------------------------->
-
-        <section class="container featured">
+        <section id="featured-movies" class="container featured">
             <h2>Featured movies</h2>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <div class="btn-group btn-group-toggle mb-4 mt-4" data-toggle="buttons">
                 <label class="btn btn-secondary active">
                     <input type="radio" name="options" id="btn-all" checked> All
                 </label>
@@ -251,14 +247,16 @@
         
     <!------------------------------------------------------------ SHOP ------------------------------------------------------------------------->
 
-        <section class="container movieShop">
+        <section id="shop-movies" class="container movieShop">
             <h2>SHOP MOVIES</h2>
-            <div class="row" id="shop"></div>
+            <div class="row" id="shop">
+            </div>
+            
         </section>
         
     <!------------------------------------------------------------ CONTACT ------------------------------------------------------------------------->
 
-        <section class="contact container">
+        <section id="contact-us" class="contact container">
             <h2>CONTACT US</h2>
             <form>
                 <div class="form-row">
@@ -287,10 +285,7 @@
                 </div>
             </form>
         </section>
-                
-    <!------------------------------------------------------------ TO TOP BOUTON ------------------------------------------------------------------------->
-
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <a href="#" id="myBtn">Top</a>
     </main>
             
     <!------------------------------------------------------------ FOOTER ------------------------------------------------------------------------->
@@ -299,10 +294,10 @@
         <div class="sub text-center">
             <h3 class="capsOn"><span class="text-danger">Subscribe to us</span></h3>
             <form>
-                <input type="text" name="user_mail" placeholder="Email Adress">
+                <input type="text" name="user_mail" placeholder="Email Adress" id="sub-input">
             </form>
-            <form action="newsletter.html" target="_blank">
-                <button class="btn btn-danger">Subscribe</button>
+            <form>
+                <button class="btn btn-danger" id="subscribe">Subscribe</button>
             </form>
         </div>
         <div class="container-fluid list text-center">
