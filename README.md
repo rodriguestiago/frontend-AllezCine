@@ -17,7 +17,7 @@ Ce projet est réalisé avec l'étroite collaboration des octocats [Corentin Col
 
 ## La deadline
 
-La période originale du projet se déroule du 10 février au 12 février, mais fut ensuite allongée jusqu'au 13 février à 12h00.
+La période originale du projet se déroule du 10 février au 12 février, mais fut ensuite allongée jusqu'au 14 février à 17h00.
 
 ## Les technologies
 
